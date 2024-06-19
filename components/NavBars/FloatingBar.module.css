@@ -1,0 +1,53 @@
+.floatingBarContainer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  top: auto;
+  background-color: rgb(22, 22, 22, 0.8);
+  border-radius: 30px;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  padding: 8px;
+  z-index: 1000;
+  border: solid 1px #292929;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.LinkContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-left: var(--padding-s);
+  padding-right: var(--padding-s);
+}
+.LinkContainerTwo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-left: var(--padding-s);
+  padding-right: var(--padding-s);
+  background-color: var(--white-text);
+  color: var(--black-text);
+  border-radius: var(--border-radius-s);
+}
+.linkContainerArrow {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #292929;
+  padding-left: var(--padding-s);
+  padding-right: var(--padding-s);
+  border-radius: var(--border-radius-s);
+}
+
+@media screen and (max-width: 700px) {
+  .navContainer .LinkContainer:nth-child(3),
+  .navContainer .LinkContainer:nth-child(4) {
+    display: none;
+  }
+}

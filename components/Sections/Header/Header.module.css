@@ -1,0 +1,37 @@
+.sectionContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+
+.headerH1 {
+  font-size: var(--font-size-xl);
+  color: var(--white-text);
+  align-self: flex-start;
+}
+
+.headerParagraph {
+  font-size: var(--font-size-m);
+  color: var(--grey-text);
+  text-transform: uppercase;
+  align-self: flex-start;
+  font-weight: 300;
+}
+
+.SpanText {
+  color: var(--white-text);
+}
+
+.headerContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: var(--container-padding);
+}
+
+.wrapper {
+  width: 100%;
+}
