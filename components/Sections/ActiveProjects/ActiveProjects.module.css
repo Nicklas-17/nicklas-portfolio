@@ -1,0 +1,55 @@
+.sectionContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--bg-color);
+  padding: 2.5vw 2.5vw 2.5vw 2.5vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 2.5vw;
+}
+
+.leftContainer {
+  width: 50%;
+  height: 100%;
+  background-color: var(--bg-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simulatorWrapper {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FeaturedImageWrapper {
+  width: 50%;
+  aspect-ratio: 1;
+  max-width: 750px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextHeaderWrapper {
+  width: 100%;
+  font-size: var(--font-size-m);
+  margin-bottom: 2.5vw;
+  letter-spacing: -0.1vw;
+  line-height: 3vw;
+}
+.TextParagraphWrapper {
+  width: 100%;
+  font-size: var(--font-size-s);
+  font-weight: 300;
+  line-height: 1.7vw;
+}

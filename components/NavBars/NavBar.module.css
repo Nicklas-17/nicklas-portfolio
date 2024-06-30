@@ -1,0 +1,13 @@
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5vw 2.5vw 0 2.5vw;
+}
+
+.LogoText {
+  font-size: var(--font-size-s);
+  letter-spacing: 0.01vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -8,6 +8,9 @@
   font-size: var(--font-size-xl);
   color: var(--white-text);
   align-self: flex-start;
+  letter-spacing: 0.05vw;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .headerParagraph {
@@ -29,7 +32,9 @@
   justify-content: center;
   height: 100%;
   width: 100%;
-  padding: var(--container-padding);
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  /* padding: var(--container-padding); */
 }
 
 .wrapper {
