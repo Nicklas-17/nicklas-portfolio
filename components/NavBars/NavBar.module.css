@@ -1,13 +1,39 @@
 .navWrapper {
   display: flex;
   justify-content: space-between;
-  padding: 2.5vw 2.5vw 0 2.5vw;
+  align-items: center;
+  padding: 1rem 2.5vw 0 2.5vw;
+  color: #fff;
+  position: relative; /* Add position relative to position the flyout menu correctly */
 }
-
 .LogoText {
   font-size: var(--font-size-s);
   letter-spacing: 0.01vw;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.flyOutMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #38423699;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  z-index: 10;
+  height: 90vh;
+  width: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(80px);
+  z-index: 10;
 }

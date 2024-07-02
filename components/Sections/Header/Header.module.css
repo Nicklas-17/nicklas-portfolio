@@ -1,5 +1,5 @@
 .sectionContainer {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background-color: var(--bg-color);
 }
@@ -11,6 +11,7 @@
   letter-spacing: 0.05vw;
   text-transform: uppercase;
   width: 100%;
+  font-weight: 400;
 }
 
 .headerParagraph {

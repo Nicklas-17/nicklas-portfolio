@@ -20,3 +20,8 @@ export interface ModalProps {
   modal: { active: boolean; index: number };
   Items: GalleryState[];
 }
+
+export interface HamburgerProps {
+  onClick: () => void;
+  isOpen: boolean;
+}

@@ -5,7 +5,6 @@ import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import style from "./ActiveProjects.module.css";
 import Image from "next/image";
-å;
 
 const ActiveProjectsGallery = [
   {
@@ -102,13 +101,20 @@ const ActiveProjects = () => {
         </div>
       </div>
       <div className={style.rightContainer}>
-        <div className={style.TextHeaderWrapper}>
-          <h2>Most recently,</h2>
+        <div className={style.rightContainerWrapper}>
+          <div className={style.sectionTitleContainer}>
+            <h1>work.</h1>
+            <p>01</p>
+          </div>
+          <div className={style.TextHeaderWrapper}>
+            <h2>At the moment,</h2>
+          </div>
+          <p className={style.TextParagraphWrapper}>
+            I am crafting user-centric web apps at Pause.BUILD where I am
+            responsible for develop stellar user-centric web applications.
+            cross-platform mobile app for WeConvert.
+          </p>
         </div>
-        <p className={style.TextParagraphWrapper}>
-          I collaborated with the team at BUILD, to develop a stellar and
-          cross-platform mobile app for WeConvert.
-        </p>
       </div>
     </section>
   );

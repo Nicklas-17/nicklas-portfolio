@@ -3,9 +3,18 @@ import styles from "./FloatingBar.module.css";
 import Link from "next/link";
 import ArrowUp from "../Icons/ArrowUp";
 
-const FloatingBar = () => {
+interface FloatingBarProps {
+  animate: boolean;
+}
+
+const FloatingBar: React.FC<FloatingBarProps> = ({ animate }) => {
+  const containerStyle = {
+    opacity: animate ? 1 : 0,
+    transition: "opacity 0.3s ease-in-out",
+  };
+
   return (
-    <div className={styles.floatingBarContainer}>
+    <div className={styles.floatingBarContainer} style={containerStyle}>
       <nav className={styles.navContainer}>
         <div className={styles.linkContainerArrow}>
           <Link href="/">

@@ -9,12 +9,8 @@ import { useState } from "react";
 
 const Header = () => {
   const [modal, setModal] = useState<ModalState>({ active: false, index: 0 });
-  const [currentIndex, setCurrentIndex] = useState(0);
 
   const profilePictures: GalleryState[] = [
-    // {
-    //   source: "/images/RedProfilePic.png",
-    // },
     {
       source: "/images/BlackAndWhiteProfilePic.png",
     },
@@ -32,7 +28,11 @@ const Header = () => {
     <section className={style.sectionContainer}>
       <NavBar />
       <div className={style.headerContentWrapper}>
-        <h1 onMouseEnter={handleMouseEnter} className={style.headerH1}>
+        <h1
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          className={style.headerH1}
+        >
           Hello, I'm Nicklas.
         </h1>
         <p
