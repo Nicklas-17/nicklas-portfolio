@@ -1,4 +1,3 @@
-// types.ts
 export interface GalleryState {
   title?: string;
   source: string;

@@ -1,0 +1,167 @@
+.aboutOneSectionContainer {
+  padding: 0 2.5vw 0 2.5vw;
+  margin-bottom: 10vw;
+  /* width: 100%; */
+}
+
+.sectionHeaderText {
+  /* color: black; */
+  font-size: var(--font-size-l);
+  font-weight: 300;
+  letter-spacing: -0.1vw;
+  line-height: 3vw;
+  margin-bottom: 1.7vw;
+}
+
+.sectionHeaderTextContainer {
+  /* background-color: #f7f7f7b0; */
+  border-radius: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw 5vw;
+  flex-direction: column;
+}
+
+.sectionHeaderTextContainer p {
+  text-align: center;
+  line-height: 1.7vw;
+}
+
+/* skills */
+
+.skillsSectionContainer {
+  display: flex;
+  margin-bottom: 10vw;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vw;
+}
+
+.technicalSkillsCard {
+  background-color: rgba(21, 21, 21, 0.624);
+  padding: 1.7vw;
+  border-radius: 1.7vw;
+}
+
+.cardHeaderContainer {
+  padding-bottom: 1vw;
+  margin-bottom: 1vw;
+  border-bottom: solid 0.5px #ffffff40;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.cardHeaderTextContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5vw;
+}
+
+.technicalSkillsCard h3 {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.technicalSkillsCard p {
+  font-weight: 300;
+  color: var(--grey-text);
+}
+
+.skillsListContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.yearsOfExpContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+  margin-right: 1.7vw;
+  font-weight: 400;
+}
+
+.skillTag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5vw;
+  background-color: #3e3e3e80;
+  border-radius: 15px;
+  width: 15vw;
+}
+
+.skillTag p {
+  color: white;
+  /* margin-right: 15vw; */
+}
+
+.whiteSeparator {
+  width: 4px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 0.5vw;
+  height: 35px;
+}
+
+.SeparatorOne {
+  width: 4px;
+  border-radius: 15px;
+  background-color: rgb(30, 129, 228);
+  margin-right: 0.5vw;
+  height: 35px;
+}
+
+.FigmaSeparator {
+  width: 4px;
+  border-radius: 15px;
+  background-color: rgb(228, 90, 30);
+  margin-right: 0.5vw;
+  height: 35px;
+}
+.FramerSeparator {
+  width: 4px;
+  border-radius: 15px;
+  background-color: rgb(61, 161, 253);
+  margin-right: 0.5vw;
+  height: 35px;
+}
+
+.CollabSeparator {
+  width: 4px;
+  border-radius: 15px;
+  background-color: #bb8aff;
+  margin-right: 0.5vw;
+  height: 35px;
+}
+.UserCentricSeparator {
+  width: 4px;
+  border-radius: 15px;
+  background-color: #fffa8d;
+  margin-right: 0.5vw;
+  height: 35px;
+}
+.AgileSeparator {
+  width: 4px;
+  border-radius: 15px;
+  background-color: #84deff;
+  margin-right: 0.5vw;
+  height: 35px;
+}
+.ProductSeparator {
+  width: 4px;
+  border-radius: 15px;
+  background-color: #abff84;
+  margin-right: 0.5vw;
+  height: 35px;
+}

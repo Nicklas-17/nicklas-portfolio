@@ -6,6 +6,7 @@ import Header from "@/components/Sections/Header/Header";
 import FloatingBar from "@/components/NavBars/FloatingBar";
 import ActiveProjects from "@/components/Sections/ActiveProjects/ActiveProjects";
 import { useState, useEffect } from "react";
+import AboutOne from "@/components/Sections/SectionIntro/AboutOne";
 
 export default function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -28,6 +29,7 @@ export default function Home() {
     <main className={styles.main}>
       <Header />
       <ActiveProjects />
+      <AboutOne />
       <FloatingBar animate={scrollPosition > 100} />
     </main>
   );

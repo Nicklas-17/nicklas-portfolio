@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1rem 2.5vw 0 2.5vw;
   color: #fff;
-  position: relative; /* Add position relative to position the flyout menu correctly */
+  position: relative;
 }
 .LogoText {
   font-size: var(--font-size-s);
