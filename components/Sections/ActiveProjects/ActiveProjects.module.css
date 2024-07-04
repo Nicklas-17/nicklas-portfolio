@@ -62,6 +62,8 @@
 
 .TextHeaderWrapper h2 {
   font-weight: 300;
+  /* text-transform: uppercase; */
+  font-size: var(--font-size-m);
 }
 .TextParagraphWrapper {
   width: 100%;
@@ -69,6 +71,7 @@
   font-weight: 300;
   line-height: 1.7vw;
   margin-bottom: 2.5vw;
+  color: var(--paper-green-text);
 }
 
 .sectionTitleContainer {

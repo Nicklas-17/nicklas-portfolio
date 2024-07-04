@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: var(--);
-  min-height: 100vh;
   background-color: var(--bg-color);
+  overflow-y: hidden;
+  margin-bottom: 0;
+  padding: 0;
 }

@@ -1,0 +1,81 @@
+.sectionContainer {
+  height: 100vh;
+  background-color: var(--midnight-bg);
+  z-index: 10;
+  width: 100%;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.contentContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.cardContainer {
+  padding: 20px;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 35vw;
+}
+
+.topCardContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.BotCardContainer {
+  background-color: #38423699;
+  width: 100%;
+}
+
+.footerBottomRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.botLeftContainer {
+  flex-direction: row;
+  display: flex;
+  gap: 2.5vw;
+  display: flex;
+}
+
+.botRightContainer {
+  flex-direction: row;
+  display: flex;
+  gap: 2.5vw;
+  margin-bottom: 2.5vw;
+}
+
+.socialsWrapper {
+  gap: 1.7vw;
+  display: flex;
+}
+
+.containerTitle {
+  margin-bottom: 20px;
+  color: var(--paper-green-text);
+  text-transform: uppercase;
+  /* font-size: 1.1vw; */
+}
+
+.containerInfo {
+  font-size: var(--font-size-s);
+}

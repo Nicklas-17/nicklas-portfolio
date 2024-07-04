@@ -130,7 +130,7 @@ const ActiveProjects = () => {
           </div>
           <p className={style.TextParagraphWrapper}>
             I'm deeply involved in crafting user-centric web applications at
-            Pause.BUILD. My main focus is on developing top-notch web and mobile
+            BUILD. My main focus is on developing top-notch web and mobile
             applications. Currently, I'm working on a cross-platform mobile app
             for WeConvert, a solar startup company. <br /> <br /> In my role as
             a Front-End Developer, I'm dedicated to designing robust front-end

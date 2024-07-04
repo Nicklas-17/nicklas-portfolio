@@ -7,6 +7,8 @@ import FloatingBar from "@/components/NavBars/FloatingBar";
 import ActiveProjects from "@/components/Sections/ActiveProjects/ActiveProjects";
 import { useState, useEffect } from "react";
 import AboutOne from "@/components/Sections/SectionIntro/AboutOne";
+import Footer from "@/components/Sections/Footer/Footer";
+import ProjectsList from "@/components/ProjectGallery/ProjectsList";
 
 export default function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -30,6 +32,8 @@ export default function Home() {
       <Header />
       <ActiveProjects />
       <AboutOne />
+      <ProjectsList />
+      <Footer />
       <FloatingBar animate={scrollPosition > 100} />
     </main>
   );

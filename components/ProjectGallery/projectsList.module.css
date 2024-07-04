@@ -1,0 +1,19 @@
+.projectListContainer {
+  width: 100%;
+  overflow: hidden;
+  gap: 8px;
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(2, 1fr);
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding-bottom: 8px;
+}
+
+/* mediaqueries */
+
+@media screen and (max-width: 1040px) {
+  .projectListContainer {
+    grid-template-columns: 1fr;
+  }
+}
