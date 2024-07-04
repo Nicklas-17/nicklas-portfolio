@@ -101,12 +101,14 @@ const AboutOne = () => {
           What do I bring to the table?
         </h2>
         <p>
-          I spent 2016 and 2017 in Berlin as a full-time employee at IBM iX as
-          Advance Art Director. The project I spent the most time on is the new
-          airbus.com. Airbus is a massive company with a broad portfolio. Most
-          departments had their separate web presentations and visual standards.
-          The challenge was to put them all under one domain so that navigation{" "}
-          <br />
+          After 6 years of desining and engineering Audio and Music products, I
+          decided to upskill into product design in Tech. Since 2020 I have been
+          meticulously honing my skills in design and development. Collaborating
+          with award winning design agencies such as Ita.K and leading the brand
+          redesign of iHomes. I spend the most of my time adding value to any
+          project I onboard. This experience has equipped me with the necessary
+          acumen to enhance Brand identity. The challenge was to put them all
+          under one domain so that navigation <br />
           is easy and everything is visually consistent.
         </p>
       </div>

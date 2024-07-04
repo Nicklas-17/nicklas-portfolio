@@ -33,6 +33,25 @@ const ActiveProjectsGallery = [
   },
 ];
 
+const tags = [
+  {
+    tagTitle: "#Mobile App development",
+    tagClass: style.MobileTag,
+  },
+  {
+    tagTitle: "#UX",
+    tagClass: style.UXTag,
+  },
+  {
+    tagTitle: "#UI",
+    tagClass: style.UITag,
+  },
+  {
+    tagTitle: "#API Design",
+    tagClass: style.APITag,
+  },
+];
+
 const ActiveProjects = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
@@ -110,10 +129,27 @@ const ActiveProjects = () => {
             <h2>At the moment,</h2>
           </div>
           <p className={style.TextParagraphWrapper}>
-            I am crafting user-centric web apps at Pause.BUILD where I am
-            responsible for develop stellar user-centric web applications.
-            cross-platform mobile app for WeConvert.
+            I'm deeply involved in crafting user-centric web applications at
+            Pause.BUILD. My main focus is on developing top-notch web and mobile
+            applications. Currently, I'm working on a cross-platform mobile app
+            for WeConvert, a solar startup company. <br /> <br /> In my role as
+            a Front-End Developer, I'm dedicated to designing robust front-end
+            software architecture. I make sure to implement best practices in
+            API structure, state management, and codebase maintainability. To
+            achieve this, I utilize modern frameworks like Zustand, React
+            Native, TypeScript, and Rive, ensuring type safety, scalability, and
+            performance. Additionally, I'm an active participant in Agile
+            development sprints, contributing to daily stand-ups, sprint
+            planning, and retrospectives to keep everything aligned with our
+            project milestones and deliverables.
           </p>
+          <div className={style.tagsContainer}>
+            {tags.map((tag, index) => (
+              <div className={tag.tagClass} key={index}>
+                <p>{tag.tagTitle}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
