@@ -73,9 +73,11 @@ const ActiveProjects = () => {
       observer.observe(sectionRef.current);
     }
 
+    const currentSection = sectionRef.current;
+
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentSection) {
+        observer.unobserve(currentSection);
       }
     };
   }, []);
