@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Nicklas Portfolio
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Purpose
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio is designed to showcase my skills and projects in a clear and concise manner. As a Front-End Developer, I believe in the power of effective and engaging user experiences. This portfolio reflects my commitment to clean design, efficient code, and smooth animations.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+**Next.js:**  For server-side rendering and optimized performance.
 
-To learn more about Next.js, take a look at the following resources:
+**React:** To build interactive and dynamic user interfaces.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**TypeScript:** Ensuring type safety and enhancing code maintainability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Work in Progress
+
+Please note that this portfolio is still a work in progress. I am continuously improving it and have yet to make it fully responsive.
+## Conclusion
+
+This portfolio is a testament to my dedication to creating user-friendly and visually appealing web applications. Thank you for visiting, and I hope you enjoy exploring my work!
+
+Feel free to reach out if you have any questions or opportunities for collaboration.
+
