@@ -2,7 +2,7 @@
   min-height: 742px;
   width: 100%;
   /* background-color: #1c1c1c; */
-  background-color: rgba(20, 20, 20, 0.669);
+  background-color: rgba(255, 255, 255, 0.669);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,10 +32,16 @@
 }
 
 .titleContainer h3 {
-  color: rgb(200, 200, 200);
+  color: #111;
 }
 
 .titleContainer p {
-  color: rgb(200, 200, 200);
+  color: #111;
   font-weight: 200;
+}
+
+.FeaturedImageWrapper {
+  width: 50%;
+  aspect-ratio: 1;
+  max-width: 750px;
 }

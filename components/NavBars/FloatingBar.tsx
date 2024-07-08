@@ -22,16 +22,16 @@ const FloatingBar: React.FC<FloatingBarProps> = ({ animate }) => {
           </Link>
         </div>
         <div className={styles.LinkContainer}>
-          <Link href="/">Work</Link>
+          <Link href="/#ActiveProjects">Work</Link>
         </div>
         <div className={styles.LinkContainer}>
-          <Link href="/">About</Link>
+          <Link href="/#About">About</Link>
         </div>
         <div className={styles.LinkContainer}>
           <Link href="/">services</Link>
         </div>
         <div className={styles.LinkContainerTwo}>
-          <Link href="/">Let's Work</Link>
+          <Link href="/#Footer">Let's Work</Link>
         </div>
       </nav>
     </div>

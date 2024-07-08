@@ -95,7 +95,11 @@ const ActiveProjects = () => {
   }, [isVisible]);
 
   return (
-    <section ref={sectionRef} className={style.sectionContainer}>
+    <section
+      ref={sectionRef}
+      className={style.sectionContainer}
+      id="ActiveProjects"
+    >
       <div className={style.leftContainer}>
         <div className={style.simulatorWrapper}>
           {isVisible && (

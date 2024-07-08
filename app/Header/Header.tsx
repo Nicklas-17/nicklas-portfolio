@@ -12,7 +12,7 @@ const Header = () => {
 
   const profilePictures: GalleryState[] = [
     {
-      source: "/images/BlackAndWhiteProfilePic.png",
+      source: "/images/GreenPosterNick.png",
     },
   ];
 

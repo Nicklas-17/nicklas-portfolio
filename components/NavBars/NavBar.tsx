@@ -3,6 +3,7 @@ import styles from "./NavBar.module.css";
 import Hamburger from "../Icons/Hamburger";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,6 +37,30 @@ const NavBar = () => {
               <div className={styles.navWrapper}>
                 <p className={styles.LogoText}>NICKLAS KRAGBÉ</p>
                 <Hamburger onClick={toggleMenu} isOpen={menuOpen} />
+              </div>
+              <div className={styles.FlyOutNavContainer}>
+                <nav className={styles.navContainer}>
+                  <div className={styles.LinkContainer}>
+                    <Link href="/#ActiveProjects" onClick={toggleMenu}>
+                      Work
+                    </Link>
+                  </div>
+                  <div className={styles.LinkContainer}>
+                    <Link href="/#About" onClick={toggleMenu}>
+                      About
+                    </Link>
+                  </div>
+                  <div className={styles.LinkContainer}>
+                    <Link href="/" onClick={toggleMenu}>
+                      services
+                    </Link>
+                  </div>
+                  <div className={styles.LinkContainer}>
+                    <Link href="/#Footer" onClick={toggleMenu}>
+                      Contact
+                    </Link>
+                  </div>
+                </nav>
               </div>
             </motion.div>
           </>

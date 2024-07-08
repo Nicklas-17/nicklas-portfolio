@@ -22,7 +22,7 @@
   justify-content: center;
   padding: 5vw 5vw;
   flex-direction: column;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.669);
   color: #111;
   margin-bottom: 10vw;
 }
@@ -113,7 +113,7 @@
 .whiteSeparator {
   width: 4px;
   border-radius: 15px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(30, 129, 228);
   margin-right: 0.5vw;
   height: 35px;
 }
@@ -129,7 +129,7 @@
 .FigmaSeparator {
   width: 4px;
   border-radius: 15px;
-  background-color: rgb(228, 90, 30);
+  background-color: rgb(61, 161, 253);
   margin-right: 0.5vw;
   height: 35px;
 }
@@ -144,28 +144,40 @@
 .CollabSeparator {
   width: 4px;
   border-radius: 15px;
-  background-color: #bb8aff;
+  background-color: #b7c3abbc;
   margin-right: 0.5vw;
   height: 35px;
 }
 .UserCentricSeparator {
   width: 4px;
   border-radius: 15px;
-  background-color: #fffa8d;
+  background-color: #b7c3abbc;
   margin-right: 0.5vw;
   height: 35px;
 }
 .AgileSeparator {
   width: 4px;
   border-radius: 15px;
-  background-color: #84deff;
+  background-color: #b7c3abbc;
   margin-right: 0.5vw;
   height: 35px;
 }
 .ProductSeparator {
   width: 4px;
   border-radius: 15px;
-  background-color: #abff84;
+  background-color: #b7c3abbc;
   margin-right: 0.5vw;
   height: 35px;
+}
+
+@media (max-width: 1020px) {
+  .skillsSectionContainer {
+    flex-direction: column;
+  }
+  .technicalSkillsCard {
+    width: 100%;
+  }
+  .skillTag {
+    width: fit-content;
+  }
 }

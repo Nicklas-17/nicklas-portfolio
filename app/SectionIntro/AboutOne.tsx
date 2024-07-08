@@ -79,14 +79,14 @@ const softSkills: Skill[] = [
   },
   {
     name: "User Centric ",
-    yearsOfExperience: "2 year",
+    yearsOfExperience: "2 years",
     startYear: "2023",
     icon: <UserIcon />,
     separatorClass: styles.UserCentricSeparator,
   },
   {
     name: "Cross-Functional Collaboration",
-    yearsOfExperience: "6 year",
+    yearsOfExperience: "6 years",
     startYear: "2023",
     icon: <CollabIcon />,
     separatorClass: styles.CollabSeparator,
@@ -95,7 +95,7 @@ const softSkills: Skill[] = [
 
 const AboutOne = () => {
   return (
-    <div className={styles.aboutOneSectionContainer}>
+    <div className={styles.aboutOneSectionContainer} id="About">
       <div className={styles.sectionHeaderTextContainer}>
         <h2 className={styles.sectionHeaderText}>
           What do I bring to the table?
@@ -107,9 +107,7 @@ const AboutOne = () => {
           with award winning design agencies such as Ita.K and leading the brand
           redesign of iHomes. I spend the most of my time adding value to any
           project I onboard. This experience has equipped me with the necessary
-          acumen to enhance Brand identity. The challenge was to put them all
-          under one domain so that navigation <br />
-          is easy and everything is visually consistent.
+          acumen to enhance brand identity and develop user centric products.
         </p>
       </div>
       <div className={styles.skillsSectionContainer}>
